@@ -1,0 +1,178 @@
+
+
+body{
+    background-color:#e3e3e3;
+}
+
+
+	.menu{
+	    background-color:#70c351; 
+	    height:75px;
+	    position: fixed;
+	    top: 0;
+	    left:0;
+	    right:0;
+
+	}
+	
+	nav>ul>li{
+	    display:inline-block;
+	    padding:20px 25px;
+	    font-size: 18px;
+	    margin-top: -10px;
+	}
+	nav>ul>li>a{
+
+		 text-decoration:none;
+	   	 color:white;
+	}
+
+	nav>ul>li>a:hover{
+    text-decoration: underline;
+    color :white;
+
+}
+
+.active>a{
+    color:#38ED90;
+}
+
+section.title{
+	margin-top: 90px;
+	text-align: center;
+	border-radius:3px;
+    border:1px solid #70c351;
+   box-shadow: 4px 4px 0px #aaa; 
+   width: 530px;
+   height: 130px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: white;
+}
+
+h2{
+	font-family: Times New Roman;
+	font-size: 60px;
+	color :#70c351;
+	margin-top: 5px;
+}
+
+h3{
+	margin-top: -50px;
+	font-size: 20px;
+	color :#70c351;
+	font-style: italic;
+}
+
+h4{
+	font-family: Times New Roman;	
+	color :white;
+	font-size: 25px;
+	margin-top: -90px;
+	text-align:center;
+	background-color :#70c351;    
+}
+
+section.sondage{
+	background-color: white;
+	width: 900px;
+	height:400px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 100px;
+	border-radius:3px;
+    	border:1px solid #70c351;
+   	box-shadow: 4px 4px 0px #aaa; 
+
+}
+
+
+
+section>input{
+	display: block;
+}
+
+input{
+display:block;
+margin-left:80px;
+}
+
+
+
+label{
+margin-left:10px;;
+font-size :17px;
+font-weight :bolder;
+color :#70c351;
+}
+
+.form{
+	margin-top: -440px;
+width:300px;
+heigth :300px;
+}
+
+.horizontal{
+background-color:#70c351;
+width:25px;
+height:470px;
+margin-left:auto;
+margin-right:auto;
+margin-top:-40px;
+}
+
+
+.connetion{
+font-size: 20px;
+background-color:#70c351;
+color :white;
+border-radius:3px;
+border:1px solid #70c351;
+box-shadow: 4px 4px 0px #aaa; 
+margin-top:-510px;
+margin-left: 652px;
+}
+
+.connetion:hover{
+	background-color: #bbde8a;
+}
+div.choixBoutton{
+
+margin-top :-280px;
+margin-left :auto;
+margin-right :auto;
+
+}
+
+footer{
+    margin-top:40px;
+    background-color:#70c351; 
+    height:50px;
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+
+.copy > p {
+	margin-top: 15px;
+    margin-left: 140px;
+    color:whitesmoke;
+     font-size: 25px;
+     font-family: Times New Roman;
+}
+
+
+textarea{
+margin-top:5px;
+margin-left:80px;
+width:250px;
+
+}
+
+.retour{
+	position: absolute;
+	margin-top: -50px;
+}
